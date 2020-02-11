@@ -172,6 +172,16 @@ i {
     margin-top: -4px;
     transition: margin 0.3s;
 }
+.text{
+  display: flex;
+  top:50%;
+  left:50%;
+  font-family: 'Viga', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgb(62, 61, 62);
+}
 
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
@@ -188,3 +198,4 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
