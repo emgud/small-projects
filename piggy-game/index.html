@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:600i|Viga&display=swap" rel="stylesheet">
+        <!-- MANO CSS visada pats zemiausias!!! -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>Little Game</title>
+    </head>
+
+    <body>
+      <div class="mt-5 mb-3">
+        <h1 class="justify-content-center d-flex "> Little Game</h1>
+      </div>
+      <div class=" mb-5">
+        <h5 class="justify-content-center d-flex ">Whoever scores 100 points first - WINS!!</h5>
+      </div>
+        <div class="wrapper clearfix mt-5 mb-5">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+
+            <button class="btn-new mt-2 justify-content-center d-flex"><i class="ion-ios-plus-outline"></i> New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <img src="starter/dice-1.png" alt="Dice" class="dice" id="dice-1">
+            <img src="starter/dice-1.png" alt="Dice" class="dice" id="dice-2">
+
+
+        </div>
+
+        <script type="text/javascript" src="libs/jquery-3.4.1.min.js"> </script>
+        <script type="text/javascript" src="libs/bootstrap/js/bootstrap.bundle.min.js"> </script>
+        <!-- my JS at the bottom -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+     </body>
+</html>
